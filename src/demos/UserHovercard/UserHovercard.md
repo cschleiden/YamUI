@@ -5,7 +5,7 @@ const { DirectionalHint } = require('../../components/Callout');
   <Callout
     content={<UserHovercard user={user} />}
     directionalHint={DirectionalHint.bottomLeftEdge}
-    startVisible={true}
+    startVisible={false}
   >
     <FakeLink>{user.name}</FakeLink>
   </Callout>
